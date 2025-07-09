@@ -1,0 +1,56 @@
+/* style.css */
+body {
+  background: #222;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.console {
+  background: #444;
+  border: 10px solid #222;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px black;
+  text-align: center;
+}
+
+.console-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.screen {
+  background: black;
+  border: 5px solid #111;
+  margin: 0 auto;
+  width: 640px;
+  height: 480px;
+  position: relative;
+  overflow: hidden;
+}
+
+canvas {
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+#startBtn {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px 20px;
+  background: #ff3c38;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
